@@ -6,9 +6,6 @@ An example application for connecting to a Postgres database using MCP.
 ```bash
 # Install dependencies
 npm install
-
-# Build the project
-npm run build
 ```
 
 Note: This example is slightly adapted from the public [MCP Postgres docs](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres). 

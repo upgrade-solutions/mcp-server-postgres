@@ -8,11 +8,12 @@ import {
   ListToolsRequestSchema,
   ReadResourceRequestSchema,
 } from "@modelcontextprotocol/sdk/types.js";
-import pg from "pg";
+import pg from "../node_modules/@types/pg";
 
 const server = new Server(
   {
-    name: "example-servers/postgres",
+    name: "mcp-server-postgres",
+    description: "MCP server for PostgreSQL",
     version: "0.1.0",
   },
   {

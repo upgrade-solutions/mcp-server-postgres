@@ -1,11 +1,10 @@
 {
   "type": "module",
   "bin": {
-    "weather": "./dist/index.js"
+    "mcp-server-postgres": "dist/index.js"
   },
   "scripts": {
-    "build": "tsc && chmod 755 dist/index.js",
-    "dev": "node ./dist/index.js"
+    "build": "tsc && chmod 755 dist/index.js"
   },
   "files": [
     "build"
