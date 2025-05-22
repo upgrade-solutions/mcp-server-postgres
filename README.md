@@ -1,5 +1,5 @@
-# mcp-postgres
-An example application for connecting to a Postgres database using MCP.
+# mcp-server-postgres
+An example server for connecting to a Postgres database using MCP.
 
 ## Quick Start
 
